@@ -13,3 +13,9 @@ docker run -d -p 8080:8080 --name stub-server -v $PWD/wiremock-home:/home/wiremo
 ```
 
 ### [Using with Spring Boot](https://wiremock.org/docs/configuration/)
+
+```bash
+cd ./stub-server-app
+mvn clean package
+java -jar ./target/stub-server-app-1.0.0.jar
+```
