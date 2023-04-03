@@ -12,4 +12,4 @@ nohup java -jar wiremock-jre8-standalone-2.35.0.jar --root-dir wiremock-home > n
 docker run -d -p 8080:8080 --name stub-server -v $PWD/wiremock-home:/home/wiremock wiremock/wiremock:2.35.0
 ```
 
-### Using with Spring Boot
+### [Using with Spring Boot](https://wiremock.org/docs/configuration/)
